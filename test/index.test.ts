@@ -131,12 +131,7 @@ describe("checking our index logic", () => {
             }
         })
 
-        let value = {
-            id: Math.floor(Math.random() * 100),
-            name: Math.ceil(Math.random() * 1000).toString(),
-            score: Math.ceil(Math.random() * 1000)
 
-        }
 
         expect(viewAllUserLogic(data)).toEqual(
             expect.arrayContaining([{
